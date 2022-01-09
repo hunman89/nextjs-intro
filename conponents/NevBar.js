@@ -8,8 +8,8 @@ export default function NavBar() {
       <Link href="/">
         <a className={router.pathname === "/" ? "active" : ""}>home</a>
       </Link>
-      <Link href="/about-us">
-        <a className={router.pathname === "/about-us" ? "active" : ""}>about</a>
+      <Link href="/about">
+        <a className={router.pathname === "/about" ? "active" : ""}>about</a>
       </Link>
       <style jsx>{`
         a {
